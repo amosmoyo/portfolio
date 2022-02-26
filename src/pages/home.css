@@ -1,0 +1,173 @@
+.main {
+  height: 100vh;
+  background: linear-gradient(39.97deg, rgb(1, 59, 37) 0.79%, #026c86 79.29%);
+  display: flex;
+  align-items: center;
+  padding: 10vh 60px;
+  text-align: center;
+}
+
+.splash {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_anime {
+  width: 40%;
+  height: 60%;
+}
+
+.title {
+  font-weight: 500;
+  color: #fff !important;
+}
+
+.btnSize {
+  color: #fff !important;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 300px) {
+  .parent-btn {
+    display: flex !important;
+    flex-flow: column wrap !important;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+  }
+
+  .splash {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home_anime {
+    width: 90%;
+    height: 70%;
+  }
+  .container {
+    width: 100%;
+    padding-top: 20vh;
+  }
+  .btnSize {
+    padding: 5px 10px;
+  }
+
+  #btnSize1:hover,
+  #btnSize2:hover {
+    padding: 8px 15px;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .parent-btn {
+    display: flex !important;
+    flex-flow: column wrap !important;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+  }
+
+  .splash {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home_anime {
+    width: 90%;
+    height: 70%;
+  }
+  .container {
+    width: 100%;
+    padding-top: 15vh;
+  }
+
+  .btnSize {
+    padding: 5px 10px;
+  }
+
+  #btnSize1:hover,
+  #btnSize2:hover {
+    padding: 8px 15px;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .parent-btn {
+    display: flex !important;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .splash {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home_anime {
+    width: 60%;
+    height: 70%;
+  }
+  .btnSize {
+    padding: 5px 10px;
+  }
+
+  #btnSize1:hover,
+  #btnSize2:hover {
+    padding: 20px 25px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .container {
+    width: 80%;
+    padding-top: 15vh;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .parent-btn {
+    display: flex !important;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .splash {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home_anime {
+    width: 35%;
+    height: 70%;
+  }
+  .btnSize {
+    padding: 20px;
+  }
+
+  #btnSize1:hover,
+  #btnSize2:hover {
+    padding: 20px 25px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .container {
+    width: 80%;
+  }
+}
