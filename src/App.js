@@ -9,7 +9,7 @@ import GoToHome from "./components/GoToHome";
 function App() {
   return (
     <>
-      <BrowserRouter basename="/portfolio">
+      <BrowserRouter>
         <Navbar />
         <Routes>
           {/* <Route path="/" element={<Navigate replace to="/portfolio" />} /> */}
