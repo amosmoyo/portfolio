@@ -9,11 +9,11 @@ import GoToHome from "./components/GoToHome";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio">
         <Navbar />
         <Routes>
           {/* <Route path="/" element={<Navigate replace to="/portfolio" />} /> */}
-          <Route path="/" element={<Navigate replace to="/home" />} />
+          <Route exact path="/" element={<Navigate replace to="/home" />} />
           <Route path="/home" element={<Home />} />
 
           <Route path="/about" element={<About />} />
