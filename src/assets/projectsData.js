@@ -1,5 +1,15 @@
 export const projectsData = [
   {
+    projectName: "Cromoshop",
+    projectDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius. Vitae aliquet nec ullamcorper sit. Aliquam purus sit amet luctus",
+    imageUrl:
+      "https://res.cloudinary.com/amosmoyo/image/upload/v1649953893/avatar/cromoshop_gdv8i2.png",
+    videoUrl:
+      "https://www.youtube.com/playlist?list=PLGyA74h_S9NrjM7mUiSmpKfUntwEcgMB3",
+    projectUrl: "https://cromoshop.herokuapp.com/",
+  },
+  {
     projectName: "Go Organic",
     projectDescription:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vivamus at augue eget arcu dictum varius. Vitae aliquet nec ullamcorper sit. Aliquam purus sit amet luctus",

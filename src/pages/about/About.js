@@ -29,31 +29,28 @@ const About = () => {
           <>
             <p className="h3">Full stack Developer</p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut{" "}
-             
+              I am a passionate software developer. Mostly I am a web oriented
+              developer. I have worked with several web technologies. My main
+              languages are JavaScript and Python. I have worked with; Raact,
+              Angular, NodeJs, Bootstrap, HTML, CSS, Django, PostMan(API
+              Manegment), MongoDB and MySQL.{" "}
             </p>
           </>
           <>
-            <p className="h3">Data Analysis</p>
+            <p className="h3">Data Analysts</p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut{" "}
+              I have with python in several of Machine Learning and Data
+              Analysis. Though i am  still an intermidiate. The tools i have used inclued Python, SQL, Microsoft Exel and Google Sheets{" "}
             </p>
           </>
           <>
             <p className="h3">Business Person</p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut{" "}
-              <br></br><br></br>
-              <button className="btn btn-primary" onClick={saveFile}>Download Resume</button>
+             I am business minded person. I have worked as a sale person and a brand ambassador for several companies in Nairobi.  <br></br>
+              <br></br>
+              <button className="btn btn-primary" onClick={saveFile}>
+                Download Resume
+              </button>
             </p>
           </>
         </div>
