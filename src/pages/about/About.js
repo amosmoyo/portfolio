@@ -12,7 +12,7 @@ import { saveAs } from "file-saver";
 const About = () => {
   const saveFile = () => {
     saveAs(
-      "https://res.cloudinary.com/amosmoyo/image/upload/v1645868685/avatar/portfolio/CV_sirlul.pdf",
+      "https://res.cloudinary.com/amosmoyo/image/upload/v1655184951/documents/CV_24_xza0lf.pdf",
       "RESUME.pdf"
     );
   };

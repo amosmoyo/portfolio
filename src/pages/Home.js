@@ -13,7 +13,7 @@ const Home = () => {
   }
   return (
     <div className="main">
-      {close && <Modal closeModal={closeModal} />}
+      {/* {close && <Modal closeModal={closeModal} />} */}
       <Container className="container">
         <div className="d-flex flex-column align-items-center justify-content-center mt-4 py-3">
             <h1 className="title mb-1 display-1 text-light">Welcome to my portfolio!</h1>
